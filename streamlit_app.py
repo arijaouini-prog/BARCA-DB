@@ -4,7 +4,7 @@ import os
 import pandas as pd
 
 # 1. Configuration de la page (Ecrit sur une seule ligne pour éliminer tout espace invisible)
-st.set_page_config(page_title="BARCA-DB Dashboard", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="BARCA-DB", layout="wide", initial_sidebar_state="expanded")
 
 # Style CSS personnalisé
 st.markdown("""<style>.main { background-color: #f8f9fa; } .stMetric { background-color: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); } h1 { color: #004b87; font-weight: 700; }</style>""", unsafe_allow_html=True)
